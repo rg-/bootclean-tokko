@@ -26,15 +26,11 @@ add_filter('wpbc/filter/swup/SwupFormsPlugin',function(){
 
 add_filter('wpbc/filter/swup/containers', function($containers){ 
 
-	$containers = '#main-content, #simulate-body-tags';
-	$containers = '#main-content-wrap, #simulate-body-tags, #wpbc_layout_debug';
-
-	$containers = '#main_navbar_container, #main-content-wrap, #wpbc_layout_debug';
+	$containers = '#main_navbar_container, #main-content-wrap, #ui-tokko-modals';
 	return $containers;
 },20,1 );
 
 add_filter('wpbc/filter/swup/plugins/mainElement', function($mainElement){ 
-	$mainElement = '#main-content'; 
 	$mainElement = '#main-content-wrap'; 
 	return $mainElement;
 },20,1 );
