@@ -1,0 +1,20 @@
+// Custom variables  
+
+// Color Scheme
+@import "variables/color-scheme";
+
+// Options
+// Quickly modify global styling by enabling or disabling optional features.
+@import "variables/options";  
+
+
+$grid-gutter-width: 38px !default; 
+
+$btn-border-radius:              2px !default;
+$btn-border-radius-lg:           2px !default;
+$btn-border-radius-sm:           2px !default;
+
+$btn-font-size-sm: 1rem * .675 !default;
+
+// navbar
+@import "variables/navbar";
